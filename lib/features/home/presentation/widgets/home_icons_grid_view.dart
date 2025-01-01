@@ -48,7 +48,7 @@ class HomeIconGridView extends StatelessWidget {
             nameIcon: AppStrings.instagram,
           ),
           HomeIconComponent(
-            color: ColorsManager.darkGray,
+            color: ColorsManager.mainGray,
             imagePath: AppAssets.twitter,
             nameIcon: AppStrings.twitter,
           ),

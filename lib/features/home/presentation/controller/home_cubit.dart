@@ -11,7 +11,7 @@ class HomeCubit extends Cubit<HomeState> {
   final HomeCarouselUseCase _homeCarouselUseCase;
 
   int currentIndex = 0;
-  int selectedIndex = 0;
+  int selectedIndex = 4;
   HomeCubit(this._homeUseCase, this._homeCarouselUseCase)
       : super(HomeInitialState());
 
@@ -49,7 +49,6 @@ class HomeCubit extends Cubit<HomeState> {
   //! changeSlider
   void changeSlider(int index) {
     currentIndex = index;
-    print("Current Index: $currentIndex");
 
     emit(HomeSliderChangeState(currentIndex));
   }
