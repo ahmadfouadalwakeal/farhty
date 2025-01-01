@@ -9,7 +9,7 @@ class ColorsManager {
   static const Color mainDarkPurple = Color(0xff6904AB);
   static const Color mainGray = Color(0xffBAC0CA);
   static const Color lightGray = Color(0xffF6F5F8);
-  static const Color darkGray = Color(0xffDDDEE1);
+  static const Color darkGray = Color(0xff777777);
   static const Color darkPink = Color(0xffF7DBDB);
   static const Color lightPink = Color(0xffFFE1E7);
   static const Color yellow = Color(0xffFFFEDC);

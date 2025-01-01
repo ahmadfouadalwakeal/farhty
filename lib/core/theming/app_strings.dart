@@ -16,6 +16,21 @@ class AppStrings {
   static const String comp = 'المسابقات';
   static const String chat = 'الدردشة';
   static const String period = '4 ايام مضت';
+  static const String next = 'التالي';
+  static const String skip = 'تخطي';
+  static const String back = 'الرجوع';
+  static const String getStarted = 'دخول التطبيق';
+  static const String onBoardingTitleOne = 'اهلا بكم في عالم فرحتي للمسابقات !';
+  static const String onBoardingSubTitleOne =
+      'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى';
+  static const String onBoardingTitleTwo =
+      'هذا النص هو مثال لنص في نفس المساحة ';
+  static const String onBoardingSubTitleTwo =
+      'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى';
+  static const String onBoardingTitleThree =
+      'هذا النص هو مثال لنص في نفس المساحة ';
+  static const String onBoardingSubTitleThree =
+      'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى';
   static const String description =
       'شاركنا اجابتك وسنختار 3 فائزين بالجائزة الكبري';
 }
