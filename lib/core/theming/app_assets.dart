@@ -20,4 +20,5 @@ class AppAssets {
   static const String logo = '${baseImagePath}logo.png';
   static const String sp1 = '${baseImagePath}sp1.png';
   static const String sp2 = '${baseImagePath}sp2.png';
+  static const String loginPhone = '${baseImagePath}login_phone.png';
 }

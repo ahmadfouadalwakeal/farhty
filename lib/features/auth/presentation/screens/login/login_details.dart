@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:work/core/helpers/commons_func.dart';
 import 'package:work/core/widgets/app_text_field.dart';
+import 'package:work/features/auth/presentation/screens/login/login_phone.dart';
 import 'package:work/features/auth/presentation/widgets/account_type_selector.dart';
 import 'package:work/features/auth/presentation/widgets/login_app_bar.dart';
 import 'package:work/features/auth/presentation/widgets/login_title_sub_title.dart';
 import 'package:work/features/auth/presentation/widgets/profile_image.dart';
-import 'package:work/features/home/presentation/widgets/bottom_navigation_bar.dart';
 
 import '../../../../../core/theming/app_strings.dart';
 import '../../../../../core/widgets/elevated_button_app.dart';
@@ -57,7 +57,7 @@ class LoginDetails extends StatelessWidget {
               elevatedButtonApp(context,
                   text: AppStrings.confirm,
                   onPressed: () =>
-                      navigate(context: context, screen: HomeBottomNavBar())),
+                      navigate(context: context, screen: LoginPhone())),
             ],
           ),
         ),
