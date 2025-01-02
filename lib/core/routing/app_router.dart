@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:work/core/routing/routes.dart';
-import 'package:work/features/auth/presentation/screens/on_boarding_screen.dart';
-import 'package:work/features/auth/presentation/screens/splash_screen.dart';
+import 'package:work/features/auth/presentation/screens/onboarding/on_boarding_screen.dart';
+import 'package:work/features/auth/presentation/screens/splash/splash_screen.dart';
 import 'package:work/features/home/presentation/screens/home_bottom_nav_screen.dart';
 
 class AppRouter {

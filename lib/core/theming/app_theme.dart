@@ -19,9 +19,9 @@ ThemeData getAppLightTheme() {
         fontSize: 32,
       ),
       displayMedium: TextStyle(
-        color: ColorsManager.darkPurple,
-        fontSize: 20,
-      ),
+          color: ColorsManager.darkPurple,
+          fontSize: 20,
+          fontWeight: FontWeight.w500),
       displaySmall: TextStyle(
         color: ColorsManager.darkGray,
         fontSize: 14,
@@ -29,6 +29,7 @@ ThemeData getAppLightTheme() {
     ),
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
+        minimumSize: Size(double.infinity, 50),
         backgroundColor: ColorsManager.primary,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(8),
