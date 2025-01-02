@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import 'package:work/core/theming/colors.dart';
-import 'package:work/features/home/presentation/widgets/bottom_navigation_bar.dart';
+import 'package:work/features/auth/presentation/screens/login/login.dart';
 
-import '../../../../core/helpers/commons_func.dart';
-import '../../../../core/theming/app_strings.dart';
-import '../../../../core/widgets/custom_button.dart';
-import '../../../../core/widgets/custom_text_button.dart';
-import '../../data/models/on_boarding_model.dart';
+import '../../../../../core/helpers/commons_func.dart';
+import '../../../../../core/theming/app_strings.dart';
+import '../../../../../core/widgets/custom_button.dart';
+import '../../../../../core/widgets/custom_text_button.dart';
+import '../../../data/models/on_boarding_model.dart';
 
 class OnBoardingScreens extends StatelessWidget {
   OnBoardingScreens({super.key});
@@ -30,8 +29,7 @@ class OnBoardingScreens extends StatelessWidget {
                     height: 130,
                   ),
                   //onBoarding1 image
-                  SvgPicture.asset(
-                      OnBoardingModel.onBoardingSceens[index].imgPath),
+                  Image.asset(OnBoardingModel.onBoardingSceens[index].imgPath),
 
                   SizedBox(
                     height: 60,
@@ -66,7 +64,6 @@ class OnBoardingScreens extends StatelessWidget {
                     count: 3,
                     effect: const WormEffect(
                       activeDotColor: ColorsManager.primary,
-
                       // spacing: 8,
                       dotHeight: 10,
                       dotWidth: 10,
@@ -113,7 +110,7 @@ class OnBoardingScreens extends StatelessWidget {
                                     // navigate to home screen
                                     navigate(
                                       context: context,
-                                      screen: const HomeBottomNavBar(),
+                                      screen: LoginScreen(),
                                     );
                                   },
                                   text: AppStrings.getStarted),

@@ -20,7 +20,28 @@ class AppStrings {
   static const String skip = 'تخطي';
   static const String back = 'الرجوع';
   static const String getStarted = 'دخول التطبيق';
+  static const String typeAccount = 'نوع الحساب';
+  static const String login = 'انشاء حساب جديد';
+  static const String confirm = 'اتمام التسجيل';
+  static const String loginDetails = 'ادخل تفاصيل الحساب';
+  static const String loginSubDetails =
+      'قم بادخال تفاصيل الحساب لانشاء حساب جديد';
+  static const String verify = 'تحقق من رقم الجوال';
+  static const String otp =
+      'تم ارسال كود مكون من 4 ارقام في رساله قصيرة علي رقم';
+  static const String subLogin =
+      'قم بادخال البيانات المطلوبة لانشاء حساب جديد على التطبيق';
+  static const String fullName = ' الاسم الكامل';
+  static const String userName = 'اسم المستخدم';
+  static const String phoneNumber = 'رقم الجوال';
+  static const String labelTypeAccount = 'حدد مشهور او متابع او صاحب متجر';
+  static const String labelTypeGender = 'حدد الجنس';
   static const String onBoardingTitleOne = 'اهلا بكم في عالم فرحتي للمسابقات !';
+  static const String famousAccount = 'حساب مشهور على منصات السوشيل مديا';
+  static const String googlePlayAccount = 'حساب صاحب متجر الكتروني';
+  static const String followAccount = 'حساب متابع';
+  static const String genderMale = 'ذكر';
+  static const String ganderFemale = 'انثى';
   static const String onBoardingSubTitleOne =
       'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى';
   static const String onBoardingTitleTwo =

@@ -10,15 +10,15 @@ class OnBoardingModel {
       {required this.imgPath, required this.title, required this.subTitle});
   static List<OnBoardingModel> onBoardingSceens = [
     OnBoardingModel(
-        imgPath: AppAssets.b1,
+        imgPath: AppAssets.on1,
         title: AppStrings.onBoardingTitleOne,
         subTitle: AppStrings.onBoardingSubTitleOne),
     OnBoardingModel(
-        imgPath: AppAssets.b2,
+        imgPath: AppAssets.on2,
         title: AppStrings.onBoardingTitleTwo,
         subTitle: AppStrings.onBoardingSubTitleTwo),
     OnBoardingModel(
-        imgPath: AppAssets.b3,
+        imgPath: AppAssets.on3,
         title: AppStrings.onBoardingTitleThree,
         subTitle: AppStrings.onBoardingSubTitleThree),
   ];

@@ -9,9 +9,9 @@ class AppAssets {
   static const String home = '${baseIconPath}home.svg';
   static const String store = '${baseIconPath}store.svg';
   static const String tiktok = '${baseIconPath}tiktok.svg';
-  static const String b1 = '${baseIconPath}B1.svg';
-  static const String b2 = '${baseIconPath}B2.svg';
-  static const String b3 = '${baseIconPath}B3.svg';
+  static const String on1 = '${baseImagePath}on1.png';
+  static const String on2 = '${baseImagePath}on2.png';
+  static const String on3 = '${baseImagePath}on3.png';
   static const String offer = '${baseImagePath}offer.png';
   static const String instagram = '${baseIconPath}instagram.svg';
   static const String snapchat = '${baseIconPath}snapchat.svg';
