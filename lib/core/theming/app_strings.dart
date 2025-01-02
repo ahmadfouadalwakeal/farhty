@@ -13,6 +13,7 @@ class AppStrings {
   static const String home = 'الرئيسية';
   static const String notification = 'الاشعارات';
   static const String list = 'القائمة';
+  static const String labelPhone = 'xxxx';
   static const String comp = 'المسابقات';
   static const String chat = 'الدردشة';
   static const String period = '4 ايام مضت';
